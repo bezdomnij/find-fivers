@@ -1,0 +1,12 @@
+dist
+.venv
+Dockerfile
+LICENSE
+HOWTO.md
+README.md
+.dockerignore
+.git
+.idea
+__pycache__
+poetry.lock
+pyproject.toml

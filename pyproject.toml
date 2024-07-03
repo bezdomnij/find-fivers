@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "findfivers"
+version = "0.4.0"
+description = "select five(default)-letter words from a source text"
+authors = ["Attila Novak <bajni37@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["text", "word", "length"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
