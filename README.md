@@ -26,3 +26,8 @@ beside the source filename, a word-length parameter is given. This is an optiona
 
 `python -m findfivers -l 8`
 using just the word-length parameter, the app will search the default file ('magyar-szavak.txt') for words of length specified (8 in this case)
+
+## docker 
+
+docker build -t fivers --rm .
+docker run -v ./:/app -v ./findfivers/data:/app/findfivers/data -it --rm --name fiveo fivers
