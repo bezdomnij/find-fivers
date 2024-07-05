@@ -30,4 +30,6 @@ using just the word-length parameter, the app will search the default file ('mag
 ## docker 
 
 docker build -t fivers --rm .
+docker build -t bajni37/fivers:0.4.0 --rm .
 docker run -v ./:/app -v ./findfivers/data:/app/findfivers/data -it --rm --name fiveo fivers
+docker run -v ./:/app -v ./findfivers/data:/app/findfivers/data -it --rm --name fiveo bajni37/fivers:0.4.0
